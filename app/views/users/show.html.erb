@@ -1,4 +1,20 @@
-<section class="container">
+<<<<<<< HEAD
+<%= render partial: "shared/user/user_header", locals: { user: @user } %>
+<div class="bio">
+  <h4>Bio</h4>
+  <p><%= @user.bio %></p>
+</div>
+<% if @user.posts.count > 0 %>
+  <% @user.last_three_posts.each do |post| %>
+    <%= render partial: "shared/post/post_summary", locals: { post: post } %>
+  <% end %>
+  <%= link_to "See all posts", user_posts_path(@user), class: 'all_posts' %>
+<% else %>
+  <p>This user has no post</p>
+<% end %>
+<%= link_to "Create new post" , new_user_post_path(@user), class: "all_posts" %>
+=======
+<section class="container flex flex--column">
     <div class="user-box">
         <img class="image-user" src=<%= @user.photo %> alt="user"/>
         <div class="user-info">
@@ -20,8 +36,10 @@
     <% end %>    
 
     <div class="button-user">
+        <%= button_to "Back", root_url(), method: :get, class: "button" %>
         <button class="button">
         <%= link_to "See all posts", user_posts_path(@user), class:"text-button" %>
         </button>
     </div>
 </section>
+>>>>>>> dev
