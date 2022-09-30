@@ -1,45 +1,64 @@
-# Blog app
+# Blog App
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+I am going to build the Blog app for three weeks. Here is the list of projects that will guide me through the steps described above. 
 
-In this project, I use migration files to build your schema.
+Project 1: Creating a data model.
+Project 2: Validations and Model specs.
+Project 3: Processing data in models.
+Project 4: Setup and controllers.
+Project 5: Controllers specs.
+Project 6: Views.
+Project 7: Forms.
+Project 8: Integration specs for Views and fixing n+1 problems.
+Project 9: Add Devise.
+Project 10: Add authorization rules.
+Project 11: Add API endpoints.
+Exercise: API documentation.
 
 ## Built With
 
 - Ruby
-- Rails
-- Gitflow
+- Ruby On Rails
+- RSpec
+- PostgreSQL
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-The basic requirements for building the executable are:
+- A source-code editor (preferably Visual Studio Code)
 
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+### Install
 
-#### Cloning the project
+- Ruby
+- Rails
+- PostgreSQL
 
-```
-https://github.com/shahnawaza75/blog_app.git
+### Using it Locally
 
-```
+- Clone the project
 
-## Setup
+git clone https://github.com/bigmosi/blog-app.git
 
-- npm install
-- npm run build
-- npm run start
+cd blog-app
 
-### Usage
+- To Start the programs
 
-Open index.html in Chrome
+open terminal
+run the command $irb (interactive ruby shell)
+run the program functions
 
-## Author
 
-👤 **Shahnawaz Ali**
+## Authors
 
-- GitHub: [@shahnawaza75](https://github.com/shahnawaza75)
-- Twitter: [@shahnawaza75](https://twitter.com/shahnawaza75)
-- LinkedIn: [@shahnawaza75](https://www.linkedin.com/in/shahnawaz-ali-a24b72204)
+👤 **Kinyera Amos**
+
+- GitHub: [@kinyera-amos](https://github.com/bigmosi)
+- Twitter: [@kinyera_amos](https://twitter.com/kinyera_amos)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kinyera_amos)
+
 
 ## 🤝 Contributing
 
@@ -53,9 +72,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Nelson Sakwa
-- [author of the original design]
+- Microverse 
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
