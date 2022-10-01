@@ -1,6 +1,8 @@
 require 'rails_helper'
 RSpec.describe 'Posts', type: :request do
-  let!(:user) { User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher from Mexico.') }
+  let!(:user) do
+    User.create(name: 'Tom', photo: 'https://unsplash.com/photos/F_-0BxGuVvo', bio: 'Teacher from Mexico.')
+  end
   let!(:post) do
     Post.create(author: user, title: 'Hello', text: 'This is my first post')
   end
